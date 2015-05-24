@@ -1,0 +1,83 @@
+#gameTitle {
+  font-size: 34pt;
+}
+
+.gameCellRow {
+
+}
+
+.gameCell {
+  position:relative;
+  height:64pt;
+
+  font-size: 34pt;
+  border-width: 4px;
+  border-color: black;
+
+  transition: all 0.10s;
+}
+
+.gameCellScored {
+
+  font-size: 48pt;
+  border-width: 4px;
+  border-color: black;
+
+  background-color:#242424;
+  font-weight: normal;
+
+  transition: font-weight 0.5s;
+}
+
+.gameCell:hover {
+  border-width: 8px;
+  border-color: red;
+  font-weight: bold;
+  
+  animation-name: pulse;
+  animation-duration: 0.25s;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+}
+
+.gamePanel {
+}
+
+.bottombar {
+  float: none;
+}
+
+.col-xs-3 {
+  padding: 0%;
+}
+
+.panel {
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.panel-default {
+  border-color: #242424;
+  border-width: 24px;
+}
+
+.gamecontainer {
+  width:600px;
+  margin: 0 auto;
+}
+#resetButton {
+  color:gray;
+  font-size: 38pt;
+  transition: color 0.2s;
+  text-shadow: 5px 5px lightgray;
+}
+#resetButton:hover {
+  color: green;
+}
+
+#gameTimer {
+  padding-left: 48px;
+  padding-right: 128px;
+  font-size: 54pt;
+  text-shadow: 5px 5px lightgray;
+}
