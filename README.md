@@ -1,7 +1,7 @@
 # Matching Game
 This is a quick matching game written in Javascript. It runs on Node and uses
-Bootstrap / Angular primarily for the front end, while node and express (among
-jquery, underscore, etc) run the backend.
+Bootstrap / Angular primarily for the front end, with express (among
+jquery, underscore, etc) on the backend.
 
 # How to execute
 Open a shell at the root directory and run server.js with node ("node server").
